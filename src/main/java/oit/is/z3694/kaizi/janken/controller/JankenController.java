@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class JankenController {
 
-  /**
-   * AC2: GETで /janken にアクセスされた場合
+  /**AC2: GETで /janken にアクセスされた場合
    * username は Model に渡さず janken.html を返す
    */
   @GetMapping("/janken")
